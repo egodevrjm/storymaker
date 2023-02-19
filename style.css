@@ -1,0 +1,60 @@
+/* Set a maximum width for the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style the form input fields */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Style the form label */
+label {
+    font-weight: bold;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #007bff;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.nav-link {
+    color: #343a40 !important;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #343a40 !important;
+    font-weight: bold;
+}
+
+/* Add some padding to the body */
+body {
+    padding-top: 0px;
+}
+
+@media (max-width: 576px) {
+    /* Adjust the font size for small screens */
+    label {
+        font-size: 14px;
+    }
+
+    /* Adjust the margin for form input fields */
+    .form-control {
+        margin-bottom: 5px;
+    }
+}
+

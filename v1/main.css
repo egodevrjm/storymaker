@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .card {
+    margin: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .card-subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+  .card-text {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    background-color: blue;
+  }

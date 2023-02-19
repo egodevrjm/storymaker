@@ -1,0 +1,77 @@
+
+
+
+body {
+  background-color: #f2f9fc;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
+}
+
+/* Style the form sections */
+.form-section {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Add a border around the form sections */
+.form-group {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.btn-primary {
+  background-color: #6699cc;
+  border-color: #6699cc;
+}
+
+.btn-primary:hover {
+  background-color: #4c7dab;
+  border-color: #4c7dab;
+}
+
+nav {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-check-input:checked {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.scroll-view {
+  max-height: 150px;
+  overflow-y: auto;
+}
+#promptContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+#storyContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
